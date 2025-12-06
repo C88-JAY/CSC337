@@ -24,15 +24,15 @@
     <body>
         <div id="main_content" class="block">
             <div id="text_section">
-                <form id="add-recipe-form" method="POST" action="/add_recipe">
-                    <label for="recipe-name">Recipe Name:</label><br>
-                    <input type="text" id="recipe-name" name="recipe_name" required><br><br>
+                <form id="recipe_form" method="POST" action="/add_recipe">
+                    <label for="recipe_name">Recipe Name:</label><br>
+                    <input type="text" id="recipe_name" name="recipe_name"><br><br>
 
                     <label for="ingredients">Ingredients List and Quantity:</label><br>
-                    <textarea id="ingredients" name="ingredients" rows="4" cols="50" required></textarea><br><br>
+                    <textarea id="ingredients" name="ingredients" rows="4" cols="50"></textarea><br><br>
 
                     <label for="instructions">Instructions:</label><br>
-                    <textarea id="instructions" name="instructions" rows="6" cols="50" required></textarea><br><br>
+                    <textarea id="instructions" name="instructions" rows="6" cols="50"></textarea><br><br>
 
                     <button type="submit">Add Recipe</button>
                 </form>
